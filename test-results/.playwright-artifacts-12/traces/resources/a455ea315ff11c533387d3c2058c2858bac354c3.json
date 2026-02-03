@@ -1,0 +1,1 @@
+{"access_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhc2h3aW4iLCJyb2xlIjoidXNlciIsInRpZXIiOiJmcmVlIiwiZXhwIjoxNzY2ODE1MjIwfQ.1rJgvPupSTOkrwg9WP7xuQbQGKiqb2d_b_vMVaqWytc","token_type":"bearer","user":{"id":2,"username":"ashwin","email":"ashwin@example.com","role":"user","tier":"free"},"mfa_required":false,"mfa_session":null}

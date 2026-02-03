@@ -1,0 +1,14 @@
+
+> pca-agent-frontend@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use by process 15788, using available port 3001 instead.
+   ▲ Next.js 16.0.10 (Turbopack)
+   - Local:         http://localhost:3001
+   - Network:       http://192.168.1.11:3001
+   - Environments: .env.local
+
+ ✓ Starting...
+ ⨯ Unable to acquire lock at /Users/ashwin/Desktop/pca_agent copy/frontend/.next/dev/lock, is another instance of next dev running?
+   Suggestion: If you intended to restart next dev, terminate the other process, and then try again.
+[?25h

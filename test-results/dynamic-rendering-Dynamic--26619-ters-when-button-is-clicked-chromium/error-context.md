@@ -1,0 +1,43 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e6] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e7]:
+      - img [ref=e8]
+    - generic [ref=e11]:
+      - button "Open issues overlay" [ref=e12]:
+        - generic [ref=e13]:
+          - generic [ref=e14]: "0"
+          - generic [ref=e15]: "1"
+        - generic [ref=e16]: Issue
+      - button "Collapse issues badge" [ref=e17]:
+        - img [ref=e18]
+  - alert [ref=e20]
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - img [ref=e24]
+      - text: PCA Agent
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - heading "Login" [level=3] [ref=e29]
+        - paragraph [ref=e30]: Enter your credentials to access your account.
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - generic [ref=e35]: Username or Email
+              - textbox "Username or Email" [ref=e36]:
+                - /placeholder: johndoe@example.com
+                - text: test@example.com
+            - generic [ref=e37]:
+              - generic [ref=e38]: Password
+              - textbox "Password" [ref=e39]:
+                - /placeholder: ••••••••
+                - text: Pca12345!
+          - paragraph [ref=e40]: Incorrect username or password
+        - generic [ref=e41]:
+          - button "Register" [ref=e42]
+          - button "Login" [ref=e43]
+  - region "Notifications alt+T"
+```
