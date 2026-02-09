@@ -4,8 +4,7 @@ const nextConfig: NextConfig = {
   output: "standalone",
 
   async rewrites() {
-    const backend =
-      process.env.BACKEND_DOMAIN || "http://localhost:8001";
+    const backend = process.env.NEXT_PUBLIC_BACKEND_DOMAIN;
 
     console.log("Using backend:", backend);
 
